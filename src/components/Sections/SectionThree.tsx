@@ -19,7 +19,7 @@ const SectionThree: React.FC = () => {
               "
       >
         Nesta consultoria você terá{" "}
-        <span className="text-[#01e0eb]">
+        <span className="text-custom-text-title">
           30 minutos do meu melhor consultor
         </span>{" "}
         para lhe atender.

@@ -1,12 +1,13 @@
 import Button from "../Button";
 import Card from "../Card";
 import React, { useState } from "react";
-import icon1 from "@/assets/icons/icon1.svg";
-import icon2 from "@/assets/icons/icon2.svg";
-import icon3 from "@/assets/icons/icon3.svg";
-import icon4 from "@/assets/icons/icon4.svg";
-import icon5 from "@/assets/icons/icon5.svg";
-import icon6 from "@/assets/icons/icon6.svg";
+import icon1 from "@/assets/icons-yellow/icon1.svg";
+import icon2 from "@/assets/icons-yellow/icon2.svg";
+import icon3 from "@/assets/icons-yellow/icon3.svg";
+import icon4 from "@/assets/icons-yellow/icon4.svg";
+import icon5 from "@/assets/icons-yellow/icon5.svg";
+import icon6 from "@/assets/icons-yellow/icon6.svg";
+
 import Modal from "../Modal";
 
 const SectionTwo: React.FC = () => {
@@ -32,14 +33,11 @@ const SectionTwo: React.FC = () => {
               xl:text-3xl xl:leading-normal
               "
       >
-        Crédito estruturado é a{" "}
-        <span className="text-[#01e0eb]">
-          opção mais viável, econômica e segura
-        </span>{" "}
-        para o empreendedor que deseja um negócio{" "}
-        <span className="text-[#01e0eb]">sólido</span>,{" "}
-        <span className="text-[#01e0eb]">próspero</span> e{" "}
-        <span className="text-[#01e0eb]">lucrativo</span>:
+        O crédito <span className="text-custom-text-title">imobiliário</span> é
+        a opção mais <span className="text-custom-text-title">viável</span>,{" "}
+        <span className="text-custom-text-title">econômica</span> e{" "}
+        <span className="text-custom-text-title">segura</span> para quem deseja
+        adquirir um imóvel.
       </h2>
       <p
         className="text-base text-center mt-4 font-normal text-white
@@ -47,7 +45,8 @@ const SectionTwo: React.FC = () => {
               xl:text-xl xl:pt-12
             "
       >
-        As aplicações para o crédito inteligente são diversas:
+        Além do crédito imobiliário, há outras opções de crédito inteligente,
+        incluindo:
       </p>
 
       <div className="flex justify-center items-center">
@@ -74,7 +73,8 @@ const SectionTwo: React.FC = () => {
       "
       >
         <Button
-          label="Quero agendar uma consultoria de crédito para meu negócio"
+          label="Quero saber mais sobre essa modalidade de crédito imobiliário
+."
           onClick={openModal}
         />
       </div>

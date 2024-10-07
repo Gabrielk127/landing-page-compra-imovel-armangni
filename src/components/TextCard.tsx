@@ -5,7 +5,7 @@ interface TextCardProps {
 const TextCard: React.FC<TextCardProps> = ({ label }) => {
   return (
     <div
-      className="p-2 bg-[#01e0eb] w-32 rounded-md
+      className="p-2 bg-custom-background-three w-32 rounded-md
         lg:w-40
         xl:w-64 xl:p-4
     "

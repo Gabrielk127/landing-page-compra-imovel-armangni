@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import Simone1 from "@/assets/simone1.jpg";
+import simone from "@/assets/simone.svg";
+
 import Button from "../Button";
 import Modal from "../Modal";
 
@@ -12,17 +13,17 @@ const Profile: React.FC = () => {
 
   return (
     <section
-      className="
+      className="mt-12
         md:flex md:flex-row md:justify-between md:items-center lg:gap-24
     "
     >
-      <div className="pt-12">
+      <div>
         <Image
-          src={Simone1}
+          src={simone}
           alt="Simone Armangni Corretora"
           className="w-72 mx-auto rounded-xl
               lg:w-96
-              xl:w-[500px]
+              xl:w-[600px]
               "
         />
       </div>
@@ -31,18 +32,18 @@ const Profile: React.FC = () => {
         className="
         md:flex md:flex-col md:w-1/2 md:justify-center
         lg:justify-start
-        xl:w-[500px]
+        xl:w-[600px]
       "
       >
         <div
-          className="p-2 bg-[#00383d] rounded-md items-center mt-4
+          className="p-2 bg-custom-background-text rounded-md items-center mt-4
                   xl:w-96
 
 
             "
         >
           <p
-            className="text-base font-extralight text-center text-[#01e0eb] tracking-widest 
+            className="text-base font-extralight text-center text-custom-text-title tracking-widest 
               sm:text-lg
               md:text-xl 
               lg:text-2xl
@@ -52,7 +53,7 @@ const Profile: React.FC = () => {
           </p>
         </div>
         <p
-          className="text-base text-center mt-4 text-white
+          className="text-base text-center mt-12 text-white
                   md:text-start
                   lg:text-lg 
                   xl:text-lg
@@ -64,7 +65,7 @@ const Profile: React.FC = () => {
         <p
           className="text-base text-center mt-4 text-white
                   md:text-start
-                  lg:text-base pt-4 pb-8
+                  lg:text-base pt-4 pb-4
                   xl:text-lg 
                 "
         >
@@ -75,7 +76,7 @@ const Profile: React.FC = () => {
           equilibrado com taxas e juros reduzidos, carência e prazos estendidos.
         </p>
         <div
-          className="pt-6 
+          className="pt-8 
           "
         >
           <Button

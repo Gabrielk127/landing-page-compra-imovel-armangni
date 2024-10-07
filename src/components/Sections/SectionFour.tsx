@@ -26,7 +26,8 @@ const SectionFour: React.FC = () => {
       "
       >
         <Button
-          label="Quero agendar uma consultoria de crédito para meu negócio"
+          label="Quero saber mais sobre essa modalidade de crédito imobiliário
+."
           onClick={openModal}
         />
       </div>

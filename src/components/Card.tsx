@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ icon, title }) => {
   return (
     <main className="w-32 md:w-40 lg:w-44 xl:w-full">
       <div
-        className="w-full h-36 bg-[#101c28] p-2 rounded-xl flex flex-col items-center border-2 border-cyan-700
+        className="w-full h-36 bg-custom-background-card-two p-2 rounded-xl flex flex-col items-center border-2 border-[#F5F5DC]
         md:h-40 md:pt-4
         xl:h-52
       "
